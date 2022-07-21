@@ -1,0 +1,71 @@
+CSS Syntax:
+A CSS rule consists of a selector and a declaration block.
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+<!--> <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>These paragraphs are styled with CSS.</p>
+
+</body>
+</html> -->
+CSS Selectors:
+A CSS selector selects the HTML element(s) you want to style.
+
+<!--<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+#cake {
+  text-align: center;
+  color: green;
+}
+.cream {
+  text-align: center;
+  color: red;
+}
+.cringe {
+  text-align: center;
+  color: orange;
+}
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p id = "cake">This paragraph is not affected by the style.</p>
+<p class= "cream">This paragraph is not affected by the style.</p>
+<p class= "cringe">This paragraph is not affected by the style.</p>
+
+</body>
+</html> -->
+
+How To Add CSS:
+Three Ways to Insert CSS
+There are three ways of inserting a style sheet:
+External CSS
+With an external style sheet, you can change the look of an entire website by changing just one file!
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+
+Internal CSS
+
+
+Inline CSS
+
+
